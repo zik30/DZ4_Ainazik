@@ -1,0 +1,120 @@
+.firstTask {
+  background-color: darkslategrey;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  font-size: 30px;
+}
+.firstTask .result {
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 5px;
+}
+.firstTask button {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.firstTask .plus {
+  color: green;
+}
+.firstTask .minus {
+  color: red;
+}
+
+.block {
+  height: 500px;
+  width: 500px;
+}
+
+.secondTask {
+  background-color: cadetblue;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+  font-size: 30px;
+}
+.secondTask .block {
+  width: 500px;
+  height: 500px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+.secondTask .coordination {
+  background-color: whitesmoke;
+  padding: 7px 15px;
+  border-radius: 5px;
+}
+
+.thirdTask {
+  background-color: lightskyblue;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.thirdTask .traffic {
+  width: 300px;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-radius: 40px;
+  background-color: gray;
+}
+.thirdTask .circles {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+.thirdTask .red.active {
+  background-color: red;
+}
+.thirdTask .yellow.active {
+  background-color: yellow;
+}
+.thirdTask .green.active {
+  background-color: green;
+}

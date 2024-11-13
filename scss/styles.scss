@@ -1,0 +1,88 @@
+.firstTask{
+  background-color: darkslategrey;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 30px;
+  .result{
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .plus{
+    color: green;
+  }
+  .minus{
+    color: red;
+  }
+}
+.block{
+  height: 500px;
+  width: 500px;
+}
+.secondTask{
+  background-color: cadetblue;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-size: 30px;
+  .block{
+    width: 500px;
+    height: 500px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+  }
+  .coordination{
+    background-color: whitesmoke;
+    padding: 7px 15px;
+    border-radius: 5px;
+  }
+}
+.thirdTask{
+  background-color: lightskyblue;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .traffic{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 40px;
+    background-color: gray;
+  }
+  .circles{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid white;
+  }
+  .red.active{
+    background-color: red;
+  }
+  .yellow.active{
+    background-color: yellow;
+  }
+  .green.active{
+    background-color: green;
+  }
+}
